@@ -1,0 +1,26 @@
+services:
+  # Python Backend (FastAPI)
+  - type: web
+    name: pathforge-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/main.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: PORT
+        value: 8000
+    plan: free
+
+  # Next.js Frontend
+  - type: web
+    name: pathforge-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NEXT_PUBLIC_API_URL
+        value: https://pathforge-backend.onrender.com
+    plan: free

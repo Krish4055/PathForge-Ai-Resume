@@ -1,0 +1,1160 @@
+[
+    {
+        "id": "c001",
+        "title": "HTML & CSS Fundamentals",
+        "domain": "Frontend",
+        "durationWeeks": 2,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "Responsive Design",
+            "Flexbox",
+            "Grid"
+        ],
+        "instructor": "Maya Chen",
+        "rating": 4.8,
+        "enrollments": 12400
+    },
+    {
+        "id": "c002",
+        "title": "JavaScript Essentials",
+        "domain": "Frontend",
+        "durationWeeks": 3,
+        "level": "Beginner",
+        "prerequisites": [
+            "c001"
+        ],
+        "skills": [
+            "JavaScript",
+            "ES6+",
+            "DOM Manipulation",
+            "Event Handling"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.9,
+        "enrollments": 18700
+    },
+    {
+        "id": "c003",
+        "title": "TypeScript Deep Dive",
+        "domain": "Frontend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c002"
+        ],
+        "skills": [
+            "TypeScript",
+            "Type Safety",
+            "Generics",
+            "Decorators"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.7,
+        "enrollments": 9300
+    },
+    {
+        "id": "c004",
+        "title": "React 18 \u2014 Modern Patterns",
+        "domain": "Frontend",
+        "durationWeeks": 4,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c002",
+            "c003"
+        ],
+        "skills": [
+            "React",
+            "Hooks",
+            "Context API",
+            "Suspense",
+            "Server Components"
+        ],
+        "instructor": "Maya Chen",
+        "rating": 4.9,
+        "enrollments": 21500
+    },
+    {
+        "id": "c005",
+        "title": "State Management with Redux Toolkit",
+        "domain": "Frontend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c004"
+        ],
+        "skills": [
+            "Redux",
+            "Redux Toolkit",
+            "RTK Query",
+            "State Management"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.6,
+        "enrollments": 7800
+    },
+    {
+        "id": "c006",
+        "title": "Next.js 14 Full-Stack",
+        "domain": "Frontend",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c004"
+        ],
+        "skills": [
+            "Next.js",
+            "App Router",
+            "SSR",
+            "SSG",
+            "API Routes"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.8,
+        "enrollments": 14200
+    },
+    {
+        "id": "c007",
+        "title": "Testing with Jest & React Testing Library",
+        "domain": "Frontend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c004"
+        ],
+        "skills": [
+            "Jest",
+            "React Testing Library",
+            "Unit Testing",
+            "Integration Testing"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 5600
+    },
+    {
+        "id": "c008",
+        "title": "Performance Optimization for Web",
+        "domain": "Frontend",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c006"
+        ],
+        "skills": [
+            "Web Performance",
+            "Core Web Vitals",
+            "Lazy Loading",
+            "Code Splitting"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.7,
+        "enrollments": 4300
+    },
+    {
+        "id": "c009",
+        "title": "Accessibility & WCAG 2.1",
+        "domain": "Frontend",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c001"
+        ],
+        "skills": [
+            "Accessibility",
+            "ARIA",
+            "WCAG",
+            "Screen Readers"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.6,
+        "enrollments": 3100
+    },
+    {
+        "id": "c010",
+        "title": "Animation with Framer Motion",
+        "domain": "Frontend",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c004"
+        ],
+        "skills": [
+            "Framer Motion",
+            "CSS Animations",
+            "Gesture Handling"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.4,
+        "enrollments": 4800
+    },
+    {
+        "id": "c011",
+        "title": "Python for Backend Development",
+        "domain": "Backend",
+        "durationWeeks": 3,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Python",
+            "OOP",
+            "File I/O",
+            "Standard Library"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.8,
+        "enrollments": 22100
+    },
+    {
+        "id": "c012",
+        "title": "FastAPI \u2014 Modern Python APIs",
+        "domain": "Backend",
+        "durationWeeks": 3,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c011"
+        ],
+        "skills": [
+            "FastAPI",
+            "REST API",
+            "Pydantic",
+            "Async Python",
+            "OpenAPI"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.9,
+        "enrollments": 11300
+    },
+    {
+        "id": "c013",
+        "title": "Node.js & Express Fundamentals",
+        "domain": "Backend",
+        "durationWeeks": 3,
+        "level": "Beginner",
+        "prerequisites": [
+            "c002"
+        ],
+        "skills": [
+            "Node.js",
+            "Express",
+            "Middleware",
+            "REST API"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.7,
+        "enrollments": 16800
+    },
+    {
+        "id": "c014",
+        "title": "Database Design with PostgreSQL",
+        "domain": "Backend",
+        "durationWeeks": 3,
+        "level": "Intermediate",
+        "prerequisites": [],
+        "skills": [
+            "PostgreSQL",
+            "SQL",
+            "Schema Design",
+            "Indexing",
+            "Transactions"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.8,
+        "enrollments": 13400
+    },
+    {
+        "id": "c015",
+        "title": "SQLAlchemy & Alembic ORM",
+        "domain": "Backend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c011",
+            "c014"
+        ],
+        "skills": [
+            "SQLAlchemy",
+            "Alembic",
+            "ORM",
+            "Database Migrations"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.5,
+        "enrollments": 5900
+    },
+    {
+        "id": "c016",
+        "title": "Authentication & Authorization \u2014 JWT & OAuth2",
+        "domain": "Backend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c012"
+        ],
+        "skills": [
+            "JWT",
+            "OAuth2",
+            "Authentication",
+            "RBAC",
+            "Security"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.7,
+        "enrollments": 8700
+    },
+    {
+        "id": "c017",
+        "title": "Redis & Caching Strategies",
+        "domain": "Backend",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c013"
+        ],
+        "skills": [
+            "Redis",
+            "Caching",
+            "Session Management",
+            "Pub/Sub"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.6,
+        "enrollments": 6200
+    },
+    {
+        "id": "c018",
+        "title": "GraphQL API Design",
+        "domain": "Backend",
+        "durationWeeks": 3,
+        "level": "Advanced",
+        "prerequisites": [
+            "c013"
+        ],
+        "skills": [
+            "GraphQL",
+            "Apollo Server",
+            "Schema Design",
+            "Resolvers",
+            "Subscriptions"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.7,
+        "enrollments": 7400
+    },
+    {
+        "id": "c019",
+        "title": "Microservices Architecture",
+        "domain": "Backend",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c012",
+            "c016"
+        ],
+        "skills": [
+            "Microservices",
+            "Service Mesh",
+            "API Gateway",
+            "Event-Driven Architecture"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.8,
+        "enrollments": 9100
+    },
+    {
+        "id": "c020",
+        "title": "Message Queues with RabbitMQ & Kafka",
+        "domain": "Backend",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c019"
+        ],
+        "skills": [
+            "RabbitMQ",
+            "Apache Kafka",
+            "Message Queues",
+            "Event Streaming"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.6,
+        "enrollments": 4100
+    },
+    {
+        "id": "c021",
+        "title": "Linux & Shell Scripting",
+        "domain": "DevOps",
+        "durationWeeks": 2,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Linux",
+            "Bash",
+            "Shell Scripting",
+            "CLI Tools"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.7,
+        "enrollments": 14600
+    },
+    {
+        "id": "c022",
+        "title": "Git & GitHub \u2014 Advanced Workflows",
+        "domain": "DevOps",
+        "durationWeeks": 1,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Git",
+            "GitHub",
+            "Branching Strategy",
+            "Code Review",
+            "CI/CD Pipelines"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.8,
+        "enrollments": 19200
+    },
+    {
+        "id": "c023",
+        "title": "Docker \u2014 Containerization Mastery",
+        "domain": "DevOps",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c021"
+        ],
+        "skills": [
+            "Docker",
+            "Containers",
+            "Dockerfile",
+            "Docker Compose",
+            "Image Optimization"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.9,
+        "enrollments": 17300
+    },
+    {
+        "id": "c024",
+        "title": "Kubernetes \u2014 Orchestration at Scale",
+        "domain": "DevOps",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c023"
+        ],
+        "skills": [
+            "Kubernetes",
+            "K8s",
+            "Pods",
+            "Deployments",
+            "Services",
+            "Helm"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.8,
+        "enrollments": 11800
+    },
+    {
+        "id": "c025",
+        "title": "CI/CD with GitHub Actions",
+        "domain": "DevOps",
+        "durationWeeks": 2,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c022",
+            "c023"
+        ],
+        "skills": [
+            "GitHub Actions",
+            "CI/CD",
+            "Automated Testing",
+            "Deployment Pipelines"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.7,
+        "enrollments": 10400
+    },
+    {
+        "id": "c026",
+        "title": "AWS Cloud Practitioner",
+        "domain": "DevOps",
+        "durationWeeks": 3,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "AWS",
+            "EC2",
+            "S3",
+            "IAM",
+            "VPC",
+            "Cloud Fundamentals"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.8,
+        "enrollments": 23600
+    },
+    {
+        "id": "c027",
+        "title": "Terraform \u2014 Infrastructure as Code",
+        "domain": "DevOps",
+        "durationWeeks": 3,
+        "level": "Advanced",
+        "prerequisites": [
+            "c026"
+        ],
+        "skills": [
+            "Terraform",
+            "IaC",
+            "AWS Provisioning",
+            "State Management"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.7,
+        "enrollments": 8200
+    },
+    {
+        "id": "c028",
+        "title": "Observability \u2014 Prometheus, Grafana & OpenTelemetry",
+        "domain": "DevOps",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c024"
+        ],
+        "skills": [
+            "Prometheus",
+            "Grafana",
+            "OpenTelemetry",
+            "Distributed Tracing",
+            "Alerting"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.6,
+        "enrollments": 5700
+    },
+    {
+        "id": "c029",
+        "title": "Security in DevOps \u2014 DevSecOps",
+        "domain": "DevOps",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c025"
+        ],
+        "skills": [
+            "DevSecOps",
+            "SAST",
+            "DAST",
+            "Secrets Management",
+            "Container Security"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 4400
+    },
+    {
+        "id": "c030",
+        "title": "Python for Data Science",
+        "domain": "Data & AI",
+        "durationWeeks": 3,
+        "level": "Beginner",
+        "prerequisites": [
+            "c011"
+        ],
+        "skills": [
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Jupyter",
+            "Data Wrangling"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.9,
+        "enrollments": 28400
+    },
+    {
+        "id": "c031",
+        "title": "Statistics & Probability for ML",
+        "domain": "Data & AI",
+        "durationWeeks": 3,
+        "level": "Intermediate",
+        "prerequisites": [],
+        "skills": [
+            "Statistics",
+            "Probability",
+            "Hypothesis Testing",
+            "Bayesian Inference"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.7,
+        "enrollments": 11200
+    },
+    {
+        "id": "c032",
+        "title": "Machine Learning Foundations",
+        "domain": "Data & AI",
+        "durationWeeks": 4,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c030",
+            "c031"
+        ],
+        "skills": [
+            "Scikit-learn",
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Model Evaluation"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.8,
+        "enrollments": 19800
+    },
+    {
+        "id": "c033",
+        "title": "Deep Learning with PyTorch",
+        "domain": "Data & AI",
+        "durationWeeks": 5,
+        "level": "Advanced",
+        "prerequisites": [
+            "c032"
+        ],
+        "skills": [
+            "PyTorch",
+            "Neural Networks",
+            "Backpropagation",
+            "CNNs",
+            "RNNs",
+            "GRU",
+            "LSTM"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.9,
+        "enrollments": 14700
+    },
+    {
+        "id": "c034",
+        "title": "Natural Language Processing",
+        "domain": "Data & AI",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c033"
+        ],
+        "skills": [
+            "NLP",
+            "Tokenization",
+            "Word Embeddings",
+            "Transformers",
+            "BERT"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.8,
+        "enrollments": 12100
+    },
+    {
+        "id": "c035",
+        "title": "LLM Engineering & Prompt Design",
+        "domain": "Data & AI",
+        "durationWeeks": 3,
+        "level": "Advanced",
+        "prerequisites": [
+            "c034"
+        ],
+        "skills": [
+            "LLMs",
+            "Prompt Engineering",
+            "Claude API",
+            "OpenAI API",
+            "RAG",
+            "Fine-tuning"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.9,
+        "enrollments": 18600
+    },
+    {
+        "id": "c036",
+        "title": "Sentence Transformers & Semantic Search",
+        "domain": "Data & AI",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c034"
+        ],
+        "skills": [
+            "Sentence Transformers",
+            "Semantic Search",
+            "Embeddings",
+            "FAISS",
+            "Cosine Similarity"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.7,
+        "enrollments": 6800
+    },
+    {
+        "id": "c037",
+        "title": "MLOps \u2014 Model Deployment & Monitoring",
+        "domain": "Data & AI",
+        "durationWeeks": 3,
+        "level": "Advanced",
+        "prerequisites": [
+            "c032",
+            "c023"
+        ],
+        "skills": [
+            "MLOps",
+            "Model Serving",
+            "MLflow",
+            "DVC",
+            "Model Monitoring"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.7,
+        "enrollments": 7300
+    },
+    {
+        "id": "c038",
+        "title": "Vector Databases \u2014 Pinecone & Weaviate",
+        "domain": "Data & AI",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c036"
+        ],
+        "skills": [
+            "Pinecone",
+            "Weaviate",
+            "Vector Search",
+            "Embeddings Storage",
+            "ANN Index"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.6,
+        "enrollments": 5200
+    },
+    {
+        "id": "c039",
+        "title": "Data Engineering with Apache Spark",
+        "domain": "Data & AI",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c030"
+        ],
+        "skills": [
+            "Apache Spark",
+            "PySpark",
+            "ETL",
+            "Data Pipelines",
+            "Delta Lake"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.7,
+        "enrollments": 8900
+    },
+    {
+        "id": "c040",
+        "title": "Computer Vision with OpenCV & PyTorch",
+        "domain": "Data & AI",
+        "durationWeeks": 4,
+        "level": "Advanced",
+        "prerequisites": [
+            "c033"
+        ],
+        "skills": [
+            "Computer Vision",
+            "OpenCV",
+            "Image Classification",
+            "Object Detection",
+            "YOLO"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.8,
+        "enrollments": 10300
+    },
+    {
+        "id": "c041",
+        "title": "Communication & Stakeholder Management",
+        "domain": "Soft Skills",
+        "durationWeeks": 1,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Communication",
+            "Stakeholder Management",
+            "Presentation",
+            "Written Communication"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.6,
+        "enrollments": 9800
+    },
+    {
+        "id": "c042",
+        "title": "Technical Writing & Documentation",
+        "domain": "Soft Skills",
+        "durationWeeks": 1,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Technical Writing",
+            "API Documentation",
+            "README",
+            "Confluence"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 5400
+    },
+    {
+        "id": "c043",
+        "title": "Agile & Scrum Mastery",
+        "domain": "Soft Skills",
+        "durationWeeks": 1,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "Agile",
+            "Scrum",
+            "Sprint Planning",
+            "Retrospectives",
+            "JIRA"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.7,
+        "enrollments": 13200
+    },
+    {
+        "id": "c044",
+        "title": "Engineering Leadership",
+        "domain": "Soft Skills",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c043"
+        ],
+        "skills": [
+            "Technical Leadership",
+            "Mentoring",
+            "Code Review Culture",
+            "Team Building"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.8,
+        "enrollments": 6100
+    },
+    {
+        "id": "c045",
+        "title": "System Design \u2014 Distributed Systems",
+        "domain": "Soft Skills",
+        "durationWeeks": 3,
+        "level": "Advanced",
+        "prerequisites": [
+            "c019"
+        ],
+        "skills": [
+            "System Design",
+            "Scalability",
+            "CAP Theorem",
+            "Load Balancing",
+            "Sharding"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.9,
+        "enrollments": 17400
+    },
+    {
+        "id": "c046",
+        "title": "Code Review & Pair Programming",
+        "domain": "Soft Skills",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c022"
+        ],
+        "skills": [
+            "Code Review",
+            "Pair Programming",
+            "Feedback Culture",
+            "Clean Code"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.5,
+        "enrollments": 4700
+    },
+    {
+        "id": "c047",
+        "title": "Product Thinking for Engineers",
+        "domain": "Soft Skills",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [],
+        "skills": [
+            "Product Thinking",
+            "User Empathy",
+            "Metrics-Driven Development",
+            "OKRs"
+        ],
+        "instructor": "Maya Chen",
+        "rating": 4.6,
+        "enrollments": 7200
+    },
+    {
+        "id": "c048",
+        "title": "Incident Response & On-Call Engineering",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c028"
+        ],
+        "skills": [
+            "Incident Response",
+            "On-Call",
+            "Post-Mortems",
+            "SLO/SLA",
+            "Runbooks"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.6,
+        "enrollments": 5300
+    },
+    {
+        "id": "c049",
+        "title": "Cost Optimization in Cloud",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c026"
+        ],
+        "skills": [
+            "Cloud Cost Optimization",
+            "FinOps",
+            "Reserved Instances",
+            "Spot Instances"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 4100
+    },
+    {
+        "id": "c050",
+        "title": "Database Performance Tuning",
+        "domain": "Operations",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c014"
+        ],
+        "skills": [
+            "Query Optimization",
+            "EXPLAIN ANALYZE",
+            "Connection Pooling",
+            "Vacuuming"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.7,
+        "enrollments": 6600
+    },
+    {
+        "id": "c051",
+        "title": "API Design Best Practices",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c012"
+        ],
+        "skills": [
+            "API Design",
+            "Versioning",
+            "Rate Limiting",
+            "API Documentation",
+            "Pagination"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.6,
+        "enrollments": 7800
+    },
+    {
+        "id": "c052",
+        "title": "Load Testing with Locust & k6",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c012"
+        ],
+        "skills": [
+            "Load Testing",
+            "Locust",
+            "k6",
+            "Performance Benchmarking",
+            "Bottleneck Analysis"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.5,
+        "enrollments": 3900
+    },
+    {
+        "id": "c053",
+        "title": "Service Level Objectives & Reliability Engineering",
+        "domain": "Operations",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c048"
+        ],
+        "skills": [
+            "SRE",
+            "SLOs",
+            "Error Budgets",
+            "Reliability Engineering",
+            "Chaos Engineering"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.7,
+        "enrollments": 5100
+    },
+    {
+        "id": "c054",
+        "title": "Feature Flags & Progressive Delivery",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c025"
+        ],
+        "skills": [
+            "Feature Flags",
+            "LaunchDarkly",
+            "Canary Releases",
+            "Blue-Green Deployments"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 4200
+    },
+    {
+        "id": "c055",
+        "title": "Secrets & Configuration Management",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [
+            "c026"
+        ],
+        "skills": [
+            "HashiCorp Vault",
+            "AWS Secrets Manager",
+            "Environment Config",
+            "12-Factor App"
+        ],
+        "instructor": "Priya Sharma",
+        "rating": 4.6,
+        "enrollments": 4800
+    },
+    {
+        "id": "c056",
+        "title": "Networking Fundamentals for Engineers",
+        "domain": "Operations",
+        "durationWeeks": 2,
+        "level": "Beginner",
+        "prerequisites": [],
+        "skills": [
+            "TCP/IP",
+            "DNS",
+            "HTTP/HTTPS",
+            "TLS",
+            "Load Balancers",
+            "CDN"
+        ],
+        "instructor": "Lena M\u00fcller",
+        "rating": 4.6,
+        "enrollments": 8900
+    },
+    {
+        "id": "c057",
+        "title": "Zero Downtime Deployments",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Advanced",
+        "prerequisites": [
+            "c024",
+            "c054"
+        ],
+        "skills": [
+            "Zero Downtime",
+            "Rolling Updates",
+            "Database Migrations",
+            "Rollback Strategy"
+        ],
+        "instructor": "Arjun Patel",
+        "rating": 4.7,
+        "enrollments": 5600
+    },
+    {
+        "id": "c058",
+        "title": "Data Privacy & GDPR Compliance",
+        "domain": "Operations",
+        "durationWeeks": 1,
+        "level": "Intermediate",
+        "prerequisites": [],
+        "skills": [
+            "GDPR",
+            "Data Privacy",
+            "PII Handling",
+            "Data Retention",
+            "Consent Management"
+        ],
+        "instructor": "Maya Chen",
+        "rating": 4.4,
+        "enrollments": 4300
+    },
+    {
+        "id": "c059",
+        "title": "Chaos Engineering & Fault Injection",
+        "domain": "Operations",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c053"
+        ],
+        "skills": [
+            "Chaos Engineering",
+            "Fault Injection",
+            "Netflix Chaos Monkey",
+            "Resilience Testing"
+        ],
+        "instructor": "Sofia Reyes",
+        "rating": 4.6,
+        "enrollments": 3700
+    },
+    {
+        "id": "c060",
+        "title": "Multi-Cloud Strategy & Vendor Evaluation",
+        "domain": "Operations",
+        "durationWeeks": 2,
+        "level": "Advanced",
+        "prerequisites": [
+            "c026",
+            "c027"
+        ],
+        "skills": [
+            "Multi-Cloud",
+            "Azure",
+            "GCP",
+            "Vendor Lock-in",
+            "Cloud Architecture"
+        ],
+        "instructor": "Marcus Johnson",
+        "rating": 4.5,
+        "enrollments": 4600
+    }
+]

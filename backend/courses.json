@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fe-101",
+    "title": "Modern React Fundamentals",
+    "domain": "Frontend",
+    "level": "Beginner",
+    "duration_hours": 10,
+    "skills_covered": ["React", "JSX", "Hooks"],
+    "prerequisites": []
+  },
+  {
+    "id": "fe-201",
+    "title": "Advanced Next.js Patterns",
+    "domain": "Frontend",
+    "level": "Advanced",
+    "duration_hours": 15,
+    "skills_covered": ["Next.js", "Server Components", "API Routes"],
+    "prerequisites": ["fe-101"]
+  },
+  {
+    "id": "be-101",
+    "title": "FastAPI Microservices",
+    "domain": "Backend",
+    "level": "Intermediate",
+    "duration_hours": 12,
+    "skills_covered": ["FastAPI", "Python", "Uvicorn"],
+    "prerequisites": []
+  },
+  {
+    "id": "ai-101",
+    "title": "Introduction to NLP with Transformers",
+    "domain": "Data & AI",
+    "level": "Intermediate",
+    "duration_hours": 20,
+    "skills_covered": ["NLP", "Transformers", "Python"],
+    "prerequisites": ["be-101"]
+  }
+]

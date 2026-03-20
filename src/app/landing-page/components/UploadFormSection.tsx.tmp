@@ -1,0 +1,10 @@
+'use client';
+
+import React, { useState, useRef, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
+import { useForm } from 'react-hook-form';
+import { Upload, X, ChevronDown, Zap, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { toast, Toaster } from 'sonner';
+import { mapBackendResponse } from '@/lib/api-mapper';
+
+type FormValues = {
