@@ -14,29 +14,13 @@ const nextConfig = {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
   },
-  /*
-  async redirects() {
+  async rewrites() {
     return [
       {
-        source: '/',
-        destination: '/landing-page',
-        permanent: false,
+        source: '/api/:path*',
+        destination: 'http://localhost:8000/:path*',
       },
     ];
   },
-  */
-
-  /*
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.(jsx|tsx)$/,
-      exclude: [/node_modules/],
-      use: [{
-        loader: '@dhiwise/component-tagger/nextLoader',
-      }],
-    });
-    return config;
-  },
-  */
 };
 export default nextConfig;

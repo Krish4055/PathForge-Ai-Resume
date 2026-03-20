@@ -78,7 +78,8 @@ export default function UploadFormSection() {
       formData.append('resume_pdf', uploadedFile);
       formData.append('job_description', data.jobDescription);
 
-      const response = await fetch('http://127.0.0.1:8000/analyze', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
+      const response = await fetch(`${apiUrl}/analyze`, {
         method: 'POST',
         body: formData,
       });
