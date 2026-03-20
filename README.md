@@ -1,5 +1,7 @@
 # PathForge — AI-Adaptive Onboarding Engine
 
+Deployment link : https://pathforge-ai-resume.onrender.com 
+
 PathForge analyzes a candidate's resume against a target job description, identifies skill gaps using AI + neural models, and generates a personalized, prerequisite-aware learning roadmap from a curated course catalog.
 
 ## 🧠 AI Architecture
