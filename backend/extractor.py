@@ -28,7 +28,7 @@ def extract_resume_skills(resume_text: str) -> list:
     if not os.getenv("GEMINI_API_KEY"):
          return [{"skill": "React", "level": "intermediate", "years": 2}]
          
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash-lite')
     response = model.generate_content(
         f"{RESUME_SYSTEM_PROMPT}\n\nExtract skills from this resume:\n\n{resume_text[:4000]}"
     )
@@ -40,7 +40,7 @@ def extract_jd_skills(jd_text: str) -> list:
     if not os.getenv("GEMINI_API_KEY"):
          return [{"skill": "Next.js", "required_level": "advanced", "priority": "core"}]
 
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash-lite')
     response = model.generate_content(
         f"{JD_SYSTEM_PROMPT}\n\nExtract required skills from this job description:\n\n{jd_text[:4000]}"
     )

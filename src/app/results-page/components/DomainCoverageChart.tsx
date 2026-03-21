@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   BarChart,
   Bar,
@@ -45,11 +45,25 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
 }
 
 export default function DomainCoverageChart({ domainCoverage }: Props) {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const data = domainCoverage.map((d) => ({
     ...d,
     pct: Math.round((d.matched / d.total) * 100),
     gap: d.total - d.matched,
   }));
+
+  if (!mounted) {
+    return (
+      <div className="glass-card rounded-2xl p-6 h-[400px] flex items-center justify-center">
+        <div className="text-zinc-500 text-sm font-mono animate-pulse">Initializing Visualization...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="glass-card rounded-2xl p-6">

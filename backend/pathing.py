@@ -9,7 +9,7 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 def build_learning_path(gap_with_scores: list, required_skills: list) -> dict:
     # Load courses
-    courses_path = os.path.join(os.path.dirname(__file__), "courses.json")
+    courses_path = os.path.join(os.path.dirname(__file__), "courses_v2.json")
     with open(courses_path, "r") as f:
         courses_catalog = json.load(f)
 
