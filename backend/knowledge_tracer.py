@@ -1,7 +1,8 @@
+import os
 import torch
 import torch.nn as nn
 from sentence_transformers import SentenceTransformer
-
+os.environ['SENTENCE_TRANSFORMERS_HOME'] = os.path.join(os.getcwd(), ".cache")
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 class KnowledgeTracingGRU(nn.Module):
@@ -40,6 +41,13 @@ class KnowledgeTracingGRU(nn.Module):
 LEVEL_MAP = {"beginner": 0.2, "intermediate": 0.5, "advanced": 0.8, "expert": 1.0}
 
 kt_model = KnowledgeTracingGRU()
+# Load weights if they exist (user requested "build our model properly")
+weights_path = os.path.join(os.path.dirname(__file__), "kt_model.pth")
+if os.path.exists(weights_path):
+    kt_model.load_state_dict(torch.load(weights_path, map_location='cpu'))
+    print(f"Loaded knowledge tracing weights from {weights_path}")
+else:
+    print("Warning: No pre-trained weights found for KnowledgeTracingGRU. Using random initialization.")
 kt_model.eval()
 
 def score_mastery_probabilities(candidate_skills: list, gap_skill_names: list) -> list:

@@ -1,7 +1,8 @@
-from sentence_transformers import SentenceTransformer, util
+import os
 import torch
-
-# Initialize model (this will download ~90MB on first run)
+from sentence_transformers import SentenceTransformer, util
+os.environ['SENTENCE_TRANSFORMERS_HOME'] = os.path.join(os.getcwd(), ".cache")
+# Initialize model (cached during Docker build)
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 LEVEL_ORDER = {"beginner": 0, "intermediate": 1, "advanced": 2, "expert": 3}

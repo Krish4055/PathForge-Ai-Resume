@@ -3,7 +3,6 @@ uvicorn
 pdfplumber
 google-generativeai
 sentence-transformers
-torch
 networkx
 python-dotenv
 python-multipart
